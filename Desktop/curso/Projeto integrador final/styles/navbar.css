@@ -1,0 +1,70 @@
+* {
+   border: 0;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Nunito";
+}
+
+:root {
+   --primary-color: hsl(156, 80%, 66%);
+   --secondary-color: hsl(14, 100%, 57%);
+   --tertiary-color: hsl(60, 2%, 27%);
+   --quaternary-color: hsl(0, 0%, 96%);
+   --tertiary50-color: hsla(60, 2%, 27%, 0.5);
+   --light-green: hsl(157, 100%, 49%);
+   --shadow-green: hsl(156, 61%, 45%);
+
+   font-size: 62.5%;
+}
+
+#opcoesnavbar {
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   align-content: center;
+   gap: 1rem;
+
+   list-style-type: none;
+}
+
+.logofind {
+   width: 15.5rem;
+   height: 5rem;
+}
+
+#navbar {
+   width: 100%;
+   height: 6rem;
+
+   display: flex;
+   flex-wrap: nowrap;
+   align-content: center;
+   justify-content: space-around;
+   align-items: center;
+
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+
+   background: linear-gradient(180deg, white, #f4f4f4);
+}
+
+#entrarnavbar {
+   width: 15rem;
+   height: 4rem;
+   border-radius: 1rem;
+   background-color: var(--primary-color);
+   box-shadow: inset 0 -0.2rem 1rem #2dbb82;
+
+   font-weight: 600;
+   font-size: 1.8rem;
+   color: white;
+
+   cursor: pointer;
+}
+
+#entrarnavbar:hover {
+   box-shadow: inset 0 -0.2rem 1rem #00fa9a;
+   border: 0.3rem solid #00fa9a;
+}

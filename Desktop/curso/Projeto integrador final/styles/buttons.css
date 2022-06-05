@@ -1,0 +1,98 @@
+* {
+   border: 0;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Nunito";
+}
+
+:root {
+   --primary-color: hsl(156, 80%, 66%);
+   --secondary-color: hsl(14, 100%, 57%);
+   --tertiary-color: hsl(60, 2%, 27%);
+   --quaternary-color: hsl(0, 0%, 96%);
+   --tertiary50-color: hsla(60, 2%, 27%, 0.5);
+   --light-green: hsl(157, 100%, 49%);
+   --shadow-green: hsl(156, 61%, 45%);
+
+   font-size: 62.5%;
+}
+
+/*entrar com facebook*/
+.entrarfacebook {
+   width: 40rem;
+   height: 5rem;
+   padding: 0.1rem;
+   background-color: white;
+   border: 0.1rem solid hsl(222, 65%, 54%);
+   border-radius: 1.2rem;
+   gap: 1.7rem;
+   padding: 1rem;
+   margin-bottom: 1.5rem;
+
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: center;
+
+   font-size: 2rem;
+   line-height: 3.3rem;
+   color: var(--tertiary50-color);
+
+   cursor: pointer;
+}
+.entrarfacebook:hover {
+   color: hsl(222, 65%, 54%);
+}
+
+/* entrar com google */
+.entrargoogle {
+   width: 40rem;
+   height: 5rem;
+   padding: 0.1rem;
+   background-color: white;
+   border: 0.1rem solid;
+   border-color: #f14336 #fbbb00 #518ef8 #28b446;
+   border-radius: 1.2rem;
+   gap: 1.7rem;
+   padding: 1rem;
+   margin-bottom: 1.5rem;
+
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: center;
+
+   font-size: 2rem;
+   line-height: 3.3rem;
+   color: var(--tertiary50-color);
+
+   cursor: pointer;
+}
+.entrargoogle:hover {
+   color: var(--tertiary-color);
+}
+
+/* Botão de confirmar */
+#botaoconfirmar {
+   width: 20rem;
+   height: 3rem;
+   min-height: 6rem;
+   background-color: var(--primary-color);
+   margin-top: 2rem;
+
+   border-radius: 1.2rem;
+
+   box-shadow: inset 0px -4px 15px var(--shadow-green);
+
+   font-weight: 600;
+   font-size: 2.6rem;
+   color: white;
+
+   cursor: pointer;
+}
+
+#botaoconfirmar:hover {
+   box-shadow: inset 0px -2px 10px var(--light-green);
+   outline: 0.2rem solid var(--light-green);
+}
